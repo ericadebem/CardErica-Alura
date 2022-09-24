@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 0.5px;
+    background-color: purple;
+}
+
+main { 
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    position: relative;
+    width: 9%;
+    margin: 0 auto;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    background-image: linear-gradient(to right, #ec939a, #b4bce4, #b4b7be);
+    width: 340px;
+	padding: 30px;
+	border-top-right-radius: 50px;
+    color: #dd646e;
+}
+
+img {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(213, 19%, 22%);
+    padding: 2px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    width: 60px;
+    right: 60px;
+}
+
+#imagem-perfil {
+    width: 60px;
+    right: 60px;
+} 
+
+#titulo-cartao .nome {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+}
+
+.linguagens-estudo {
+    text-align: center;
+    font-size: 12px;
+    color:#dd646e;
+    position: absolute;
+    margin-top: 20px;
+}
+
+#midias-erica {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    top: 125px;
+
+}
+
+#agradecimento {
+    background-color: #dd646e;
+    text-align: center;
+}
