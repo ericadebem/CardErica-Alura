@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -10,63 +11,57 @@ body {
     background-color: purple;
 }
 
-main { 
+main {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 100px;
 }
 
 section {
-    position: relative;
-    width: 9%;
-    margin: 0 auto;
-    margin-top: 25vh;
-    margin-bottom: 25vh;
+    flex-direction: column;
     background-image: linear-gradient(to right, #ec939a, #b4bce4, #b4b7be);
-    width: 340px;
-	padding: 30px;
-	border-top-right-radius: 50px;
-    color: #dd646e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-width: 500px;
+    border-top-right-radius: 50px;
+}
+
+#foto {
+    background-color: rgb(219, 197, 197);
+    padding: 3px;
+    border-radius: 50%;
+    width: 100px;
+    right: 100px;
+    margin: 24px;
 }
 
 img {
-    display: flex;
-    justify-content: space-between;
-    background-color: hsl(213, 19%, 22%);
-    padding: 2px;
+    background-color: rgb(219, 197, 197);
+    padding: 3px;
     border-radius: 50%;
-    margin-bottom: 8px;
-    width: 60px;
-    right: 60px;
+    width: 40px;
+    right: 40px;
+    margin: 5px;
+    margin-bottom: 24px;
 }
 
-#imagem-perfil {
-    width: 60px;
-    right: 60px;
-} 
-
-#titulo-cartao .nome {
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 16px;
-}
-
-.linguagens-estudo {
-    text-align: center;
-    font-size: 12px;
-    color:#dd646e;
-    position: absolute;
-    margin-top: 20px;
-}
-
-#midias-erica {
+ul {
     display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    top: 125px;
+    justify-content: space-around;
+}
+    
 
+p {
+    color: #dd646e;
+    margin: 24px;
 }
 
-#agradecimento {
+footer {
     background-color: #dd646e;
-    text-align: center;
+    text-align: center; 
+    width: 100%;  
+    min-width: 520px;
 }
